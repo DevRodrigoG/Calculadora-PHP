@@ -1,0 +1,267 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+body{
+    background-color: #7277AD;
+}
+
+.container {
+    width: 600px;
+    height: 450px;
+    margin: 100px auto;
+    border-radius: 10px;
+    border: 2px black solid;
+    background-color: white;
+    text-align: center;
+}
+
+.titulo {
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.titulo span {
+    color: #7277AD;
+}
+
+.titulo p {
+    margin-top: 20px;
+    font-size: 1.4em;
+}
+
+.operacoes {
+    margin: 25px auto;
+    width: 80%;
+}
+
+/* ============ Soma ================= */
+
+.soma {
+    width: 80%;
+    margin: 25px auto;
+}
+.soma a{
+    border-radius: 10px;
+    font-size: 1.4em;
+    color: white;
+    border: 2px solid black;
+    background-color: blue;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+}
+
+.soma a:hover{
+    background: rgba(0, 0, 255, 0.767);
+    color: black;
+    transition: .5s;
+}
+
+.soma input{
+    margin-top: 50px;
+    width: 200px;
+    height: 50px;
+    border-radius: 10px;
+    font-size: 1.4em;
+    text-align: center;
+    border: 2px solid black;
+}
+.soma .submit{
+    margin-top: 50px;
+    width: 430px;
+    color: white;
+    background-color: blue;
+    cursor: pointer;
+}
+.soma label{
+    font-size: 2em;
+    font-weight: bold;
+    
+}
+
+.soma .resul{
+    font-size: 3em;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+.soma p{
+    font-size: 1.4em;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+/* ============== Subtração ================= */
+
+.subtracao {
+    width: 80%;
+    margin: 25px auto;
+}
+
+.subtracao a{
+    border-radius: 10px;
+    font-size: 1.4em;
+    color: white;
+    border: 2px solid black;
+    background-color: blue;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+}
+
+.subtracao a:hover{
+    background: rgba(0, 0, 255, 0.767);
+    color: black;
+    transition: .5s;
+}
+
+.subtracao input{
+    margin-top: 50px;
+    width: 200px;
+    height: 50px;
+    border-radius: 10px;
+    font-size: 1.4em;
+    text-align: center;
+    border: 2px solid black;
+}
+.subtracao .submit{
+    margin-top: 50px;
+    width: 430px;
+    color: white;
+    background-color: blue;
+    cursor: pointer;
+}
+.subtracao label{
+    font-size: 2em;
+    font-weight: bold;
+    
+}
+
+.subtracao .resul{
+    font-size: 3em;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+.subtracao p{
+    font-size: 1.4em;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+/* ==============   Multiplicação ==================== */
+
+.multiplicacao {
+    width: 80%;
+    margin: 25px auto;
+}
+
+.multiplicacao a{
+    border-radius: 10px;
+    font-size: 1.4em;
+    color: white;
+    border: 2px solid black;
+    background-color: blue;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+}
+
+.multiplicacao a:hover{
+    background: rgba(0, 0, 255, 0.767);
+    color: black;
+    transition: .5s;
+}
+
+
+.multiplicacao input{
+    margin-top: 50px;
+    width: 200px;
+    height: 50px;
+    border-radius: 10px;
+    font-size: 1.4em;
+    text-align: center;
+    border: 2px solid black;
+}
+.multiplicacao .submit{
+    margin-top: 50px;
+    width: 430px;
+    color: white;
+    background-color: blue;
+    cursor: pointer;
+}
+.multiplicacao label{
+    font-size: 2em;
+    font-weight: bold;
+    
+}
+
+.multiplicacao .resul{
+    font-size: 3em;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+.multiplicacao p{
+    font-size: 1.4em;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+/* =============== Divisão =============== */
+
+.divisao {
+    width: 80%;
+    margin: 25px auto;
+}
+
+.divisao a{
+    border-radius: 10px;
+    font-size: 1.4em;
+    color: white;
+    border: 2px solid black;
+    background-color: blue;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+}
+
+.divisao a:hover{
+    background: rgba(0, 0, 255, 0.767);
+    color: black;
+    transition: .5s;
+}
+
+
+.divisao input{
+    margin-top: 50px;
+    width: 200px;
+    height: 50px;
+    border-radius: 10px;
+    font-size: 1.4em;
+    text-align: center;
+    border: 2px solid black;
+}
+.divisao .submit{
+    margin-top: 50px;
+    width: 430px;
+    color: white;
+    background-color: blue;
+    cursor: pointer;
+}
+.divisao label{
+    font-size: 2em;
+    font-weight: bold;
+    
+}
+
+.divisao .resul{
+    font-size: 3em;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+.divisao p{
+    font-size: 1.4em;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
