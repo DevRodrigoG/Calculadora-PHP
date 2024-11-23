@@ -36,7 +36,7 @@
                 }
 
             ?>
-            <a href="./Index.html">Voltar para o inico</a>
+            <a href="./Index.html">Voltar para o início</a>
         </div>
 
     </div>
